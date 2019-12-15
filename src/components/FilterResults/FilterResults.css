@@ -1,0 +1,20 @@
+.Filter-Container {
+	display: flex;
+	flex-direction: row;
+	margin: 40px 0 0 20px;
+	
+}
+
+#price-text {
+ margin-left: 80px;
+}
+
+#price-range {
+   margin-left: 80px;
+   text-align: center;
+}
+
+#slider {
+
+	 margin-left: 80px;
+}

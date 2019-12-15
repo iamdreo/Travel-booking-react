@@ -1,0 +1,21 @@
+.description-text {
+	width:90%;
+	text-align: center;
+	padding-left: 10%;
+	padding-top: 5%;
+	line-height: 2;
+
+}
+
+@media only screen and (min-width: 768px) {
+
+.description-text {
+	width: 85%;
+	padding-left: 20%;
+	padding-top: 5%;
+	line-height: 4;
+
+}
+
+
+}

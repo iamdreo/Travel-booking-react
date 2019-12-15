@@ -1,0 +1,46 @@
+#package-header{
+	padding-left: 40px;
+	padding-top: 5%;
+	font-size: 1.8rem;
+	text-transform: uppercase;
+	
+}
+
+
+#package-description {
+  
+  padding-left: 40px;
+  width: 90%;
+
+}
+
+.tab {
+
+ padding-left: 40px;
+ width: 80%;
+ padding-top: 5%;
+}
+
+@media only screen and (min-width: 768px) {
+
+#package-header{
+	padding-left: 50px;
+	padding-top: 5%;
+	font-size: 1.8rem;
+	text-transform: uppercase;
+}
+
+
+#package-description {
+  
+  padding-left: 50px;
+  width: 70%;
+}
+
+.tab {
+
+ padding: 50;
+ width: 70%;
+}
+
+}

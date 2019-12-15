@@ -1,0 +1,141 @@
+ #header-text {
+  text-align: center;
+  font-size: 1.2rem;
+  padding-top: 10%;
+}
+
+
+.grid-container {
+display: flex;
+ flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+ 
+}
+
+.grid-images {
+  height: 15rem;
+  width: 20rem; 
+  margin-top: 30px;
+}
+
+
+.center-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-weight: bolder;
+  font-size: 20px;
+
+}
+
+.image-container {
+  position: relative;
+  width: 50%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 15rem;
+  width: 20rem; 
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+   margin-top: 30px;
+}
+
+.image-container:hover .overlay {
+  opacity: 0.5;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  font-weight:bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+@media only screen and (min-width: 768px) {
+ #header-text {
+  text-align: center;
+  font-size: 1.5rem;
+  padding-top: 10%;
+}
+
+
+.grid-container {
+  
+  display: flex;
+ flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 82%;
+  padding: 20px 0 0 20%;
+}
+
+.grid-images {
+  height: 15rem;
+  width: 16.2rem; 
+}
+
+
+.center-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.image-container {
+  position: relative;
+  width: 50%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 15rem;
+  width: 16.2rem; 
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.image-container:hover .overlay {
+  opacity: 0.5;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  font-weight:bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+}

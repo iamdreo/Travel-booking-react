@@ -1,0 +1,28 @@
+
+#banner-text {
+	padding-left: 10%;
+	margin-top: 8rem;
+	font-size: 1.2rem;
+	font-weight: bold;
+}
+
+#banner-text2 {
+	font-size: 1rem;
+	padding-left: 10%;
+	font-style: normal;
+}
+
+@media only screen and (min-width: 768px) {
+ #banner-text {
+	padding-left: 20%;
+	margin-top: 8rem;
+	font-size: 3rem;
+}
+
+#banner-text2 {
+	padding-left: 20%;
+	font-style: normal;
+	font-size: 2rem;
+}
+
+}
